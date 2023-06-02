@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Viagem dos sonhos</title>
+
+</head>
+
+<body>
+  <header class="container-fluid p-2 bg-warning text-center">
+    <nav class="navbar navbar-expand-sm bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> Viagem dos sonhos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end bg-warning" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Pacotes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Taxas</a>
+            </li>
+            <li class="nav-item dropdown">
+            <li class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Contato
+            </li>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navBarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-cart4"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <main class="coitainer">
+      <div class="py-5 text-center">
+        <h2>Pagamento</h2>
+      </div>
+      <div class="row g-5">
+        <div class="col-md-5 col-lg-4 order-md-last">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-primary">Adicione seu cartão </span>
+            <span class="badge bg-primary rounded-pill">3</span>
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Pacote escolhido</h6>
+                <small class="text-body-secondary">Gramado</small>
+              </div>
+              <span class="text-body-secondary">R$4,000.00</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Pacote escolhido</h6>
+                <small class="text-body-secondary">Porto seguro</small>
+              </div>
+              <span class="text-body-secondary">R$3,000.00</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Pacote escolhido</h6>
+                <small class="text-body-secondary">Rio de Janeiro</small>
+              </div>
+              <span class="text-body-secondary">R$2,000.00</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
+              <div class="text-success">
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Total (USD)</span>
+              <strong>R$ 9,000.00</strong>
+            </li>
+          </ul>
+          <form class="card p-2">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Cumpo de desconto">
+              <button type="submit" class="btn btn-secondary">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-7 col-lg-8">
+          <h4 class="mb-3">Dados Pessoais</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="PrimeiroNome" class="form-label">Primeiro Nome</label>
+                <input type="text" class="form-control" id="PrimeiroNome" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Insira um nome válido
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <label for="SobreNome" class="form-label">Sobrenome</label>
+                <input type="text" class="form-control" id="SobreNome" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Insira um sobrenome válido.
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="input-group has-validation">
+                  <div class="invalid-feedback">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="email" class="form-label">Email <class="text-body-secondary">(Optional) <span></label>
+                <input type="email" class="form-control" id="email" placeholder="seunome@exemplo.com">
+                <div class="invalid-feedback">
+                  Por favor, entre com um e-mail válido.
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="Endereço" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="Endereço" placeholder="Rua/Av" required>
+                <div class="invalid-feedback">
+                  Por favor, insira seu endereço de entrega
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="col-12">
+                  <label for="complemento" class="form-label">Complemento <span
+                      class="text-body-secondary">(Optional)</span></label>
+                  <input type="text" class="form-control" id="complemento" placeholder="Apartamento ou suite">
+                </div>
+                <div class="col-md-4">
+                  <label for="country" class="form-label">País</label>
+                  <select class="form-select" id="country" required>
+                    <option>Brasil</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Insira um país válido
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <label for="state" class="form-label">Estado</label>
+                  <select class="form-select" id="state" required>
+                    <option value="">Escolha</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Por favor, insira um estado
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <label for="zip" class="form-label">Cep</label>
+                  <input type="text" class="form-control" id="zip" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Cep inválido
+                  </div>
+                </div>
+              </div>
+
+              <hr class="my-4">
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="same-address">
+                <label class="form-check-label" for="same-address">O endereço de entrega é o mesmo do meu endereço de
+                  cobrança</label>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="save-info">
+                <label class="form-check-label" for="save-info">Salvar as informações para a próxima compra?</label>
+              </div>
+
+              <hr class="my-4">
+
+              <h4 class="mb-3">Pagamento</h4>
+
+              <div class="my-3">
+                <div class="form-check">
+                  <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                  <label class="form-check-label" for="credit">Cartão de crédito</label>
+                </div>
+                <div class="form-check">
+                  <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                  <label class="form-check-label" for="debit">Boleto</label>
+                </div>
+                <div class="form-check">
+                  <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                  <label class="form-check-label" for="paypal">Pix</label>
+                </div>
+              </div>
+
+              <div class="row gy-3">
+                <div class="col-md-6">
+                  <label for="cc-name" class="form-label">Nome exatamente como no cartão</label>
+                  <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                  <small class="text-body-secondary">Nome exatamente como no cartão</small>
+                  <div class="invalid-feedback">
+                    Nome do cartão inválido
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="cc-number" class="form-label">Número do cartão de crédito</label>
+                  <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Cartão de crédito inválido
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <label for="cc-expiration" class="form-label">Data de vencimento</label>
+                  <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Data de válidade inválida
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <label for="cc-cvv" class="form-label">CVV</label>
+                  <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Código de segurança inválido
+                  </div>
+                </div>
+              </div>
+
+              <hr class="my-4">
+
+              <button class="w-100 btn btn-primary btn-lg"id= "pagamento-botão" type="submit">Continue para o pagamento</button>
+          </form>
+        </div>
+      </div>
+    </main>
+</body>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Suas compras</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Produto adicionado no carrinho!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+        <a href="checkout.html" class="btn btn-success">Finalizar compra</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+    <footer class="container-fluid p-7 bg-warning text-center">
+  <p>Desenvolvido por Gabriela Duarte</p>
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
+</html>

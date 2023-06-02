@@ -1,0 +1,31 @@
+h1 {
+  font-size: 63px;
+  color: #303030;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  color: #303030;
+  font-weight: 600;
+}
+
+#pacotes .figuras figure {
+  display: inline-block;
+}
+
+#pacotes .figuras,
+#pacotes .videos {
+  text-align: center;
+}
+
+.carousel-caption h5 {
+  font-size: 80px;
+  color: #ffc107;
+  text-shadow: 2px 2px 2px #303030;
+}
+
+#pagamento-botão {
+  margin-bottom: 20px;
+}
